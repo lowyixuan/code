@@ -1,5 +1,6 @@
-print("Title of program: Encouragement bot")
+print("Title of program: Day lighter: Light up your day")
 print()
+
 while True:
   description = input("Could you describe how you feel in a sentence?")
 
@@ -27,6 +28,12 @@ while True:
       feelings_list.append("dead")
       encouragement_list.append("we are all here for you, stay strong okay")
       counter += 1
+      
+    if each_word == "depressed":
+      feelings_list.append("depressed")
+      encouragement_list.append("you can do this, we care for you yea ")
+      counter += 1
+      
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
